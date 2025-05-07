@@ -104,6 +104,7 @@ textarea {
    }
 
    header .content-wrapper {
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center; /* to algin at center points */
@@ -397,8 +398,12 @@ textarea {
 
 /* ----- header ----- */
 
-header .content-wrapper {
+header {
   padding: 33px 0;
+}
+
+header .content-wrapper {
+  padding: 0;
   justify-content: space-between;
 }  
 
@@ -530,9 +535,6 @@ aside .content-wrapper .form {
 .faq-content {
   width: 43%;
 }
-
-
-
 }
 
 
@@ -540,6 +542,72 @@ aside .content-wrapper .form {
 
 /* --------------- DESKTOP STYLES ---------------- */
 @media only screen and (min-width: 1200px){
+
+  .content-wrapper {
+    max-width: 960px;
+  }
+
+  /* --------------- Header and Footer Styles --------------- */
+
+  /* Header */
+
+  header {
+    padding: 15px 0;
+  }
+
+  /* Footer */
+
+  footer .content-wrapper {
+    width: 100%;}
+
+  /* ----- Homepage ----- */
+
+  /* Hero Area */
+
+  .hero-area h1 {
+    width: 70%;
+  }
+
+  /* Aside Email Optin */
+
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
+
+  aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+  width: 30%;
+}
+
+/* Features */
+
+.features h2 {
+  width: 90%;
+}
+
+.features article {
+  flex-basis: 33%;
+}
+
+/* Reviews */
+
+.reviews h2 {
+  margin-bottom: 50px;
+}
+
+.reviews article div {
+  width: 42%;
+}
+
+/* About Page */
+
+.mission h2 {
+  width: 88%;
+}
+
+.contact-content div {
+  width: 30%;
+}
 
 }
 
