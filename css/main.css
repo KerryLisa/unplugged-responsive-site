@@ -140,10 +140,12 @@ textarea {
    }
 
    img {
-
+    width: 100%;
    }
 
    figure {
+    margin: 0;
+    width: 100%;
   }
 
   address {
@@ -154,7 +156,7 @@ textarea {
     background-color: #2a423a;
   }
 
-   .content-wrapper {
+  .content-wrapper {
     outline: 3px dotted red;
     width: 90%;
     margin: 50px 0;
@@ -180,6 +182,10 @@ textarea {
     margin: 0; 
    }
 
+   header figure {
+    width: 60%;
+   }
+
    header .header-divider {
     width: 100%;
     margin: 10px 0 20px 0;
@@ -197,6 +203,7 @@ textarea {
     width: 100%;
     font-weight: bold;
     font-size: 1.125em;
+    padding-left: 0;
    }
 
    header nav ul li a {
@@ -260,7 +267,9 @@ textarea {
    .hero-area {
     display: flex;
     justify-content: center;
-    min-height: 600px;
+    min-height: 500px;
+    background: url('../img/unplugged-retreat.jpg') center no-repeat #333;
+    background-size: cover;
    }
 
    /* Aside Email Optin */
@@ -307,6 +316,8 @@ textarea {
    .features {
     display: flex;
     justify-content: center;
+    background: url('../img/unplugged-retreat-features.jpg') center no-repeat #333;
+    background-size: cover;
    }
 
    .features h2 {
@@ -543,6 +554,10 @@ textarea {
     justify-content: space-between;
   }  
 
+  header figure {
+    width: 30%;
+  }
+
   header .header-divider {
       display: none;
     }
@@ -625,18 +640,28 @@ textarea {
 
 /* Reviews */
 
-  .reviews .article {
-    display: flex;
-    justify-content: space-between;
-  }
+.reviews article {
+  display: flex;
+  justify-content: space-between;
+  align-items: start-flex;
+}
 
-  .reviews h3 {
-    width: 73%;
-  }
+.reviews figure {
+  width: 49%;
+}
 
-  .reviews article div {
-    width: 49%;
-  }
+.reviews article div {
+  width: 49%;
+}
+
+.reviews h3 {
+  width: 73%;
+  margin: 0 0 20px 0;
+}
+
+  
+
+  
 
 
 /* About Page */
