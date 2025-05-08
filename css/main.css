@@ -97,6 +97,7 @@ textarea {
     font-family: 'Open sans', sans-serif;
     font-size: 1em;
     text-align: left;
+    color: #e2e3ed;
    }
 
    ul,
@@ -124,12 +125,6 @@ textarea {
     font-weight: 500;
    }
 
-   input {
-    font-family: 'Poppins', Helvetica, Arial, sans-serif;
-    font-weight: 500;
-    color: #2a423a;
-   }
-
    h2 {
     font-size: 1.875em; 
    }
@@ -155,6 +150,10 @@ textarea {
     font-style: normal;
   }
 
+  button {
+    background-color: #2a423a;
+  }
+
    .content-wrapper {
     outline: 3px dotted red;
     width: 90%;
@@ -169,6 +168,7 @@ textarea {
     display: flex;
     justify-content: center;
     padding: 15px 0;
+    background: #202322;
    }
 
    header .content-wrapper {
@@ -210,6 +210,7 @@ textarea {
     align-items: center; 
     text-align: center;
     flex-direction: column; 
+    background: #202322;
    }
 
    footer .content-wrapper {
@@ -219,6 +220,7 @@ textarea {
 
    footer h4 {
     padding: 20px 0;
+    margin: 0;
    }
 
    footer p {
@@ -237,6 +239,7 @@ textarea {
     display: flex;
     justify-content: space-around; 
     align-items: center; 
+    background: #527158;
    }
 
    footer .social-icons p { 
@@ -257,6 +260,7 @@ textarea {
    .hero-area {
     display: flex;
     justify-content: center;
+    min-height: 600px;
    }
 
    /* Aside Email Optin */
@@ -264,6 +268,7 @@ textarea {
    aside {
     display: flex;
     justify-content: center;
+    background: #527158;
    }
 
    aside h3 {
@@ -275,18 +280,26 @@ textarea {
    }
 
    aside input[type="text"]{
+    box-sizing: border-box;
+    width: 100%;
+    color: #2a423a;
+    font-style: italic;
     padding: 1em;
-    width: 90%;
-    //margin-bottom: 20px;
-    font-size: 1.125em;
    }
 
    aside input[type="button"]{
-    padding: 20px;
     width: 100%;
+    padding: 20px 0;
     margin-top: 20px;
+    background-color: #2a423a;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #e2e3ed;
+    border: none;
+    text-align: center;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+
    }
 
    /* Features */
@@ -309,6 +322,10 @@ textarea {
     margin-top: 60px;
    }
 
+   .features .features-item-description {
+    text-align: center;
+   }
+
    .features article {
     width: 61%;
     margin: 30px 0;
@@ -323,10 +340,11 @@ textarea {
    .reviews {
     display: flex;
     justify-content: center;
+    background: #2a423a;
    }
 
    .reviews h2 {
-    margin-bottom: 40px;
+    margin: 0 0 40px 0;
     line-height: 1em;
    }
 
@@ -349,12 +367,26 @@ textarea {
       justify-content: center;
     }
 
+    .mission {
+      background: #527158;
+    }
+
+    .contact-section {
+      background: #2a423a;
+    }
+
+    .mission h2,
+    .contact-section h2 {
+      margin: 0;
+    }
+
 
     /* --------------- FAQ Page  --------------- */
 
     .faq {
       display: flex;
       justify-content: center;
+      background: #527158;
     }
 
     .faq h2 {
@@ -364,6 +396,7 @@ textarea {
 
     .faq h4 {
       line-height: 24px;
+      font-weight: 600;
     }
 
     .faq .content-wrapper {
@@ -488,13 +521,13 @@ textarea {
 
     h3 {
       font-size: 1.5em;
-      line-height: .04em;
+      line-height: 1.125em;
     }
 
     .content-wrapper {
     width: 100%;
     max-width: 640px;
-    padding: 100px 0;
+    margin: 100px 0;
     }
 
 /* --------------- Header and Footer Styles --------------- */
@@ -533,6 +566,7 @@ textarea {
 
   footer h4 {
     font-size: 1.5em;
+    padding-bottom: 40px;
   }
 
   footer .contact {
@@ -565,7 +599,7 @@ textarea {
 /* Aside Email Optin */
 
   aside .content-wrapper {
-    padding: 50px 0;
+    margin: 50px 0;
     display: flex;
     justify-content: space-between;
   }
@@ -586,7 +620,7 @@ textarea {
   }
 
   .features .features-item-description {
-    width: 50%;
+    width: 55%;
   }
 
 /* Reviews */
@@ -594,6 +628,10 @@ textarea {
   .reviews .article {
     display: flex;
     justify-content: space-between;
+  }
+
+  .reviews h3 {
+    width: 73%;
   }
 
   .reviews article div {
@@ -729,7 +767,11 @@ textarea {
   }
 
   .features article {
-    flex-basis: 33%;
+    flex-basis: 33.3333%;
+  }
+
+  .features .features-item-description {
+    width: 60%;
   }
 
 /* Reviews */
