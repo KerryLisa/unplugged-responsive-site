@@ -675,10 +675,6 @@ textarea {
   margin: 0 0 20px 0;
 }
 
-  
-
-  
-
 
 /* About Page */
 
@@ -693,8 +689,8 @@ textarea {
     width: 45%;
   }
 
-  .map {
-    min-height: 350px;
+  .map figure {
+    padding-bottom: 54%;
   }
 
   .contact-section h2 {
@@ -829,6 +825,10 @@ textarea {
 
   .mission h2 {
     width: 88%;
+  }
+
+  .map figure {
+    padding-bottom: 46%;
   }
 
   .contact-content div {
