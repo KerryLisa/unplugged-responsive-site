@@ -546,13 +546,13 @@ textarea {
   /* --------------- General Styles --------------- */
 
     h1 {
-        font-size: 2.25em;
+        font-size: 3em;
         line-height: 1em;
     }
 
     h2 {
       font-size: 2.25em;
-      line-height: 1.3em;
+      line-height: 1.333em;
     }
 
     h3 {
@@ -679,6 +679,11 @@ textarea {
   width: 49%;
 }
 
+.reviews h2 {
+  font-size: 2.38em;
+  width: 72%;
+}
+
 .reviews h3 {
   width: 73%;
   margin: 0 0 20px 0;
@@ -782,6 +787,10 @@ textarea {
     padding: 15px 0;
   }
 
+  header figure {
+    width: 20%;
+  }
+
   /* Footer */
 
   footer .content-wrapper {
@@ -810,6 +819,7 @@ textarea {
 
   .features h2 {
     width: 88%;
+    font-size: 2.55em;
   }
 
   .features article {
